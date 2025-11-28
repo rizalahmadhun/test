@@ -34,10 +34,12 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      USERNAME: "MASTER"
+      USERNAME: "razztzy"
       PASSWORD: "admin@123"
-      RAM_SIZE: "7G"
+      RAM_SIZE: "16G"
       CPU_CORES: "4"
+      DISK_SIZE: "500G"
+      DISK2_SIZE: "100G"
     devices:
       - /dev/kvm
       - /dev/net/tun
