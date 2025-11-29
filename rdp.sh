@@ -34,11 +34,11 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      USERNAME: "razztzy"
+      USERNAME: "razzdevs"
       PASSWORD: "admin@123"
-      RAM_SIZE: "16G"
-      CPU_CORES: "4"
-      DISK_SIZE: "500G"
+      RAM_SIZE: "24G"
+      CPU_CORES: "22"
+      DISK_SIZE: "600G"
       DISK2_SIZE: "100G"
     devices:
       - /dev/kvm
